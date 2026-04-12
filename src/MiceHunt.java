@@ -60,6 +60,7 @@ public class MiceHunt {
             // tile.setIcon(milkIcon);
 
             tile.addActionListener(new ActionListener() {
+                @Override
                 public void actionPerformed(ActionEvent e) {
                     JButton tile = (JButton) e.getSource();
                     if (tile == currMiceTile) {
@@ -79,6 +80,7 @@ public class MiceHunt {
 	}
 
         setMiceTimer = new Timer(1000, new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 //remove icon from current tile
                 if (currMiceTile != null) {
@@ -101,6 +103,7 @@ public class MiceHunt {
         });
 
         setMilkTimer = new Timer(1500, new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 //remove icon from current tile
                 if (currMilkTile != null) {
