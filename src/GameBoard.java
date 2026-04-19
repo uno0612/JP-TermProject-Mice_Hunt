@@ -309,7 +309,7 @@ public class GameBoard {
         //    textLabel.setText("You Win: " + gameState.getScore());
         //else
         if (gameStatus.equalsIgnoreCase("Lose"))
-            textLabel.setText("Game Over: " + "10000"); //gameState.getScore());
+            textLabel.setText("Game Over: " + gameState.getScore());
 
         stopTimers(); // stop all timers
         for (JButton b : board) b.setEnabled(false); // disable all tiles
