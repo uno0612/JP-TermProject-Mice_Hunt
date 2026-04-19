@@ -1,5 +1,5 @@
 # JP-TermProject-Mice_Hunt
-22300013 강운 (Un Kang), 22300835 김호훈(Hohun Kim), 22500373 Bibeck Sunar
+22300013 강운 (Un Kang), 22300835 김호훈(Hohun Kim), 22500373 Bibek Sunar
 
 A mini game, Mice Hunt, has 10 randomly generated stage, each stage lasts for limited time.
 You can choose difficulty easy, normal, hard.
